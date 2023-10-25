@@ -1,0 +1,42 @@
+.not-found-background {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.not-found-msg-background {
+  background-color: #000000;
+  padding: 40px 20px 40px 20px;
+  text-align: center;
+  flex-grow: 1;
+  font-family: 'Roboto';
+}
+
+.not-found-image {
+  width: 60%;
+  margin-bottom: 20px;
+}
+
+.not-found-heading {
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-heading {
+    font-size: 44px;
+  }
+}
+
+.not-found-description {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .not-found-description {
+    font-size: 26px;
+  }
+}
