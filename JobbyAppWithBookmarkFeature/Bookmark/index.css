@@ -1,0 +1,70 @@
+.bookmark-background-container {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.bookmark-empty-view-background {
+  background-color: rgb(1, 10, 14);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-grow: 1;
+  padding: 20px;
+}
+
+.bookmark-empty-view-msg {
+  color: rgb(33, 224, 30);
+  font-family: 'Roboto';
+  font-size: 22px;
+}
+
+@media screen and (min-width: 768px) {
+  .bookmark-empty-view-msg {
+    font-size: 24px;
+  }
+}
+
+.bookmark-items-container {
+  flex-grow: 1;
+  background-color: #000000;
+  padding: 20px;
+}
+
+.clear-btn-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.clear-button {
+  background-color: dodgerblue;
+  color: snow;
+  border-radius: 8px;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Roboto';
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  border: none;
+}
+
+@media screen and (min-width: 768px) {
+  .clear-button {
+    font-size: 18px;
+  }
+}
+
+.clear-button:hover {
+  background-color: white;
+  color: dodgerblue;
+  border: 2px solid dodgerblue;
+}
+
+.bookmark-list {
+  padding: 0px;
+  list-style-type: none;
+}

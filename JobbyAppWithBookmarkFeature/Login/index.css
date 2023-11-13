@@ -1,0 +1,88 @@
+.login-background {
+  min-height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.login-form-background {
+  background-color: #202020;
+  width: 70%;
+  border-radius: 10px;
+  padding: 40px 20px 40px 20px;
+  text-align: center;
+  margin: auto;
+  font-family: 'Roboto';
+}
+
+@media screen and (min-width: 768px) {
+  .login-form-background {
+    width: 40%;
+  }
+}
+
+.logo-image {
+  width: 40%;
+  margin-bottom: 40px;
+  height: 50px;
+}
+
+.login-form {
+  width: 80%;
+  margin: auto;
+}
+
+.input-container {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.login-button {
+  width: 100%;
+  border: none;
+  background-color: #6366f1;
+  cursor: pointer;
+  outline: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  font-size: 20px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+.login-button:hover {
+  background-color: white;
+  border: 2px solid #6366f1;
+  color: #6366f1;
+}
+
+.err-msg {
+  color: #ff0b37;
+  text-align: left;
+  margin-top: 0px;
+}
+
+.label-element {
+  color: #ffffff;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.input-element {
+  width: 100%;
+  border: 1px solid #b6c5ff;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 18px;
+  outline: none;
+  color: #ffffff;
+  background-color: transparent;
+}
